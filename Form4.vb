@@ -1,0 +1,6 @@
+﻿Public Class arc
+
+    Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Label2.Text = "The Simple-As-Possible (SAP)-1 computer is a basic model of a microprocessor. The SAP-1 	architecture contains the basic necessities for a functional Microprocessor. Its primary purpose 	is to develop a basic understanding of how a microprocessor works, interacts with memory and 	other parts of the system like input and output. The SAP-1 Architecture shows the structure of SAP-1, a bus organized computer. All register output to the 8-bit Wire Bus is three-state that allows	orderly transfer of data. All other register output is two-state; these outputs continuously drive the boxes they are connected to. To load instruction and data words into the SAP-1 memory we have to use some kind of code that the computer can interpret. The number 0000 stands for LDA, 0001 for ADD, 0010 for SUB, 1110 for OUT, and 1111 for HLT. Because this code tells the computer which operation to perform, it is called an operation code or OP CODE. 
+    End Sub
+End Class
